@@ -293,3 +293,226 @@ footer {
 .footer-description-text-links {
 	text-decoration: underline;
 }
+
+@media screen and (max-width: 1200px) {
+	.header-content {
+		flex-direction: column-reverse;
+		align-items: center;
+	}
+	.header-content-text {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	.header-text {
+		text-align: center;
+	}
+	.main-steps-num {
+		display: flex;
+		flex-direction: column;
+	}
+	.first-step {
+		width: 400px;
+	}
+	.second-step {
+		margin-top: 40px;
+		width: 400px;
+	}
+	.third-step {
+		margin-top: 40px;
+		width: 400px;
+	}
+	.cv {
+		display: flex;
+		flex-direction: column;
+	}
+	.get-start {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	.input-wrap {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	.job-button {
+		margin-top: 32px;
+	}
+	.cv-text {
+		display: flex;
+		flex-direction: column;
+		margin: auto;
+		align-items: center;
+	}
+	.cv-button {
+		margin-bottom: 64px;
+	}
+	.footer-up {
+		display: flex;
+		flex-direction: column;
+	}
+}
+@media screen and (max-width: 700px) {
+	:root {
+		--size: 100%;
+		--aspect-ratio: 1.473809;
+		--width: var(--size);
+		--height: calc(var(--size) / var(--aspect-ratio));
+		--dollar-ratio: 4.4532374;
+		--fire-ratio: 4.1824324;
+		--light-ratio: 7.1149425;
+		--star-ratio: 6.3814432;
+	}
+	.header-content-img {
+		width: var(--width);
+		height: var(--height);
+	}
+	.cv-img {
+		width: 100%;
+	}
+	.dollar-img {
+		left: 170px;
+		width: calc(var(--width) / var(--dollar-ratio));
+	}
+	.fire-img {
+		top: 186px;
+    	left: 381px;
+		width: calc(var(--width) / var(--fire-ratio));
+	}
+	.cv-img-light {
+		width: calc(var(--width) / var(--light-ratio));
+	}
+	.cv-img-star {
+		width: calc(var(--width) / var(--star-ratio));
+	}
+	.header-adaptive {
+		display: none;
+	}
+	.find-job-input {
+		width: 400px;
+	}
+	.header-text {
+		width: auto;
+	}
+	.first-step {
+		width: auto;
+	}
+	.second-step {
+		width: auto;
+	}
+	.third-step {
+		width: auto;
+	}
+}
+@media screen and (max-width: 560px) {
+	.find-job-input {
+		width: 312px;
+	}
+	.fire-img {
+		top: 155px;
+    	left: 350px;
+	}
+}
+
+@media screen and (max-width: 510px) {
+	.fire-img {
+    	left: 330px;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.header-content {
+		padding-top: 44px;
+	}
+	.dollar-img {
+		left: 110px;
+		top: 10px;
+	}
+	.fire-img {
+		top: 112px;
+    	left: 225px;
+	}
+	.adaptive-header {
+		font-size: 32px;
+		font-weight: 700;
+		line-height: 38px;
+		letter-spacing: 0em;
+		text-align: center;
+		margin-top: 54px;
+	}
+	.adaptive-p {
+		font-size: 14px;
+	}
+	.header-content {
+		padding-bottom: 32px;
+	}
+	.main-steps {
+		padding-top: 54px;
+    	padding-bottom: 54px;
+	}
+	.find-job {
+		padding: 54px 0;
+	}
+	.get-start {
+		text-align: center;
+	}
+	.adaptive-find-h1 {
+		font-size: 24px;
+	}
+	.adaptive-find-p {
+		font-size: 14px;
+		font-weight: 500;
+	}
+	.adaptive-find-p br {
+		display: none;
+	}
+	.cv-img-light {
+		top: 156px;
+    	left: 22px;
+	}
+	.cv-img-star {
+		top: 78px;
+    	left: 153px;
+	}
+	.cv-image {
+		margin-bottom: 108px;
+	}
+	.cv-text {
+		align-items: flex-start;
+	}
+	.footer-text {
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+	}
+	.footer-up {
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+	}
+	.footer-links {
+		flex-direction: column;
+		align-items: flex-start;
+	}
+	.footer-text-mrgn {
+		margin-left: 0px;
+		margin-top: 36px;
+	}
+	.footer-social-twitter {
+		margin-top: 26px;
+		margin-left: 0px;
+	}
+	.footer-social-instagram {
+		margin-top: 16px;
+		margin-left: 0px;
+	}
+	.footer-description-text {
+		margin-top: 40px;
+		text-align: left;
+	}
+	.footer-down {
+		padding-top: 40px;
+		padding-bottom: 32px;
+	}
+}
